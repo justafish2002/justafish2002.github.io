@@ -20,7 +20,7 @@
         <script type="text/javascript">
             function initialize_map() {
                 var map = new google.maps.Map(document.getElementById('fullmap'), {
-                    center: new google.maps.LatLng(39.10, -84.50),
+                    center: new google.maps.LatLng(39.07, -84.55),
                     zoom: 14,
                     mapTypeId: google.maps.MapTypeId.ROADMAP,
                     zoomControl: true,
@@ -81,6 +81,21 @@ map: map,	icon: "static/icons/61.png"
                 
                 
                     
+                    var marker_61_39_083032__84_496039 = new google.maps.Marker({	position: new google.maps.LatLng(39.083032,-84.496039),	
+map: map,	icon: "static/icons/61.png"
+});
+
+                    marker_61_39_083032__84_496039
+
+                    google.maps.event.addListener(
+                        marker_61_39_083032__84_496039,
+                        'click',
+                        getInfoCallback(map, "count: <br>17:39<br>17:39")
+                    );
+                
+                
+                
+                    
                     var marker_61_39_108298__84_517508 = new google.maps.Marker({	position: new google.maps.LatLng(39.108298,-84.517508),	
 map: map,	icon: "static/icons/61.png"
 });
@@ -124,6 +139,21 @@ map: map,	icon: "static/icons/61.png"
                     );
                 
                 
+                
+                
+                
+                    
+                    var marker_61_39_083036__84_508168 = new google.maps.Marker({	position: new google.maps.LatLng(39.083036,-84.508168),	
+map: map,	icon: "static/icons/61.png"
+});
+
+                    marker_61_39_083036__84_508168
+
+                    google.maps.event.addListener(
+                        marker_61_39_083036__84_508168,
+                        'click',
+                        getInfoCallback(map, "count: <br>14:57")
+                    );
                 
                 
             }

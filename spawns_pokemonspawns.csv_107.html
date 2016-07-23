@@ -20,7 +20,7 @@
         <script type="text/javascript">
             function initialize_map() {
                 var map = new google.maps.Map(document.getElementById('fullmap'), {
-                    center: new google.maps.LatLng(39.10, -84.50),
+                    center: new google.maps.LatLng(39.07, -84.55),
                     zoom: 14,
                     mapTypeId: google.maps.MapTypeId.ROADMAP,
                     zoomControl: true,
@@ -90,7 +90,7 @@ map: map,	icon: "static/icons/107.png"
                     google.maps.event.addListener(
                         marker_107_39_110338__84_510872,
                         'click',
-                        getInfoCallback(map, "count: <br>12:3")
+                        getInfoCallback(map, "count: <br>12:3<br>13:3<br>14:3")
                     );
                 
                 
@@ -105,7 +105,7 @@ map: map,	icon: "static/icons/107.png"
                     google.maps.event.addListener(
                         marker_107_39_101034__84_504480,
                         'click',
-                        getInfoCallback(map, "count: <br>12:1")
+                        getInfoCallback(map, "count: <br>12:1<br>14:1")
                     );
                 
                 
@@ -150,7 +150,7 @@ map: map,	icon: "static/icons/107.png"
                     google.maps.event.addListener(
                         marker_107_39_101390__84_503415,
                         'click',
-                        getInfoCallback(map, "count: <br>10:25<br>11:25")
+                        getInfoCallback(map, "count: <br>10:25<br>11:25<br>13:25")
                     );
                 
                 
@@ -165,7 +165,7 @@ map: map,	icon: "static/icons/107.png"
                     google.maps.event.addListener(
                         marker_107_39_101065__84_503415,
                         'click',
-                        getInfoCallback(map, "count: <br>16:29<br>22:29<br>11:29")
+                        getInfoCallback(map, "count: <br>16:29<br>22:29<br>11:29<br>12:29")
                     );
                 
                 
@@ -180,7 +180,7 @@ map: map,	icon: "static/icons/107.png"
                     google.maps.event.addListener(
                         marker_107_39_101042__84_504644,
                         'click',
-                        getInfoCallback(map, "count: <br>18:4<br>12:4")
+                        getInfoCallback(map, "count: <br>18:4<br>12:4<br>14:4<br>15:4")
                     );
                 
                 
@@ -199,6 +199,36 @@ map: map,	icon: "static/icons/107.png"
                     );
                 
                 
+                
+                    
+                    var marker_107_39_100965__84_503005 = new google.maps.Marker({	position: new google.maps.LatLng(39.100965,-84.503005),	
+map: map,	icon: "static/icons/107.png"
+});
+
+                    marker_107_39_100965__84_503005
+
+                    google.maps.event.addListener(
+                        marker_107_39_100965__84_503005,
+                        'click',
+                        getInfoCallback(map, "count: <br>13:48")
+                    );
+                
+                
+                
+                
+                
+                    
+                    var marker_107_39_110736__84_510708 = new google.maps.Marker({	position: new google.maps.LatLng(39.110736,-84.510708),	
+map: map,	icon: "static/icons/107.png"
+});
+
+                    marker_107_39_110736__84_510708
+
+                    google.maps.event.addListener(
+                        marker_107_39_110736__84_510708,
+                        'click',
+                        getInfoCallback(map, "count: <br>13:0")
+                    );
                 
                 
             }

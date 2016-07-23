@@ -20,7 +20,7 @@
         <script type="text/javascript">
             function initialize_map() {
                 var map = new google.maps.Map(document.getElementById('fullmap'), {
-                    center: new google.maps.LatLng(39.10, -84.50),
+                    center: new google.maps.LatLng(39.07, -84.55),
                     zoom: 14,
                     mapTypeId: google.maps.MapTypeId.ROADMAP,
                     zoomControl: true,
@@ -49,6 +49,36 @@ map: map,	icon: "static/icons/70.png"
                     );
                 
                 
+                
+                
+                
+                    
+                    var marker_70_39_120315__84_483417 = new google.maps.Marker({	position: new google.maps.LatLng(39.120315,-84.483417),	
+map: map,	icon: "static/icons/70.png"
+});
+
+                    marker_70_39_120315__84_483417
+
+                    google.maps.event.addListener(
+                        marker_70_39_120315__84_483417,
+                        'click',
+                        getInfoCallback(map, "count: <br>13:6")
+                    );
+                
+                
+                
+                    
+                    var marker_70_39_101454__84_518573 = new google.maps.Marker({	position: new google.maps.LatLng(39.101454,-84.518573),	
+map: map,	icon: "static/icons/70.png"
+});
+
+                    marker_70_39_101454__84_518573
+
+                    google.maps.event.addListener(
+                        marker_70_39_101454__84_518573,
+                        'click',
+                        getInfoCallback(map, "count: <br>13:26")
+                    );
                 
                 
             }

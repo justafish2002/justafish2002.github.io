@@ -20,7 +20,7 @@
         <script type="text/javascript">
             function initialize_map() {
                 var map = new google.maps.Map(document.getElementById('fullmap'), {
-                    center: new google.maps.LatLng(39.10, -84.50),
+                    center: new google.maps.LatLng(39.07, -84.55),
                     zoom: 14,
                     mapTypeId: google.maps.MapTypeId.ROADMAP,
                     zoomControl: true,
@@ -33,6 +33,21 @@
 
                 
 
+                
+                
+                    
+                    var marker_15_39_103246__84_484318 = new google.maps.Marker({	position: new google.maps.LatLng(39.103246,-84.484318),	
+map: map,	icon: "static/icons/15.png"
+});
+
+                    marker_15_39_103246__84_484318
+
+                    google.maps.event.addListener(
+                        marker_15_39_103246__84_484318,
+                        'click',
+                        getInfoCallback(map, "count: <br>13:43")
+                    );
+                
                 
                 
                     
