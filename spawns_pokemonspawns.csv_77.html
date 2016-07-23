@@ -306,6 +306,21 @@ map: map,	icon: "static/icons/77.png"
                     );
                 
                 
+                
+                    
+                    var marker_77_39_066009__84_555264 = new google.maps.Marker({	position: new google.maps.LatLng(39.066009,-84.555264),	
+map: map,	icon: "static/icons/77.png"
+});
+
+                    marker_77_39_066009__84_555264
+
+                    google.maps.event.addListener(
+                        marker_77_39_066009__84_555264,
+                        'click',
+                        getInfoCallback(map, "count: <br>15:26")
+                    );
+                
+                
             }
 
             function getInfoCallback(map, content) {

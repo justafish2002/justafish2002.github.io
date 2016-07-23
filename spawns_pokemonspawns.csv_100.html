@@ -66,6 +66,21 @@ map: map,	icon: "static/icons/100.png"
                     );
                 
                 
+                
+                    
+                    var marker_100_39_044886__84_553136 = new google.maps.Marker({	position: new google.maps.LatLng(39.044886,-84.553136),	
+map: map,	icon: "static/icons/100.png"
+});
+
+                    marker_100_39_044886__84_553136
+
+                    google.maps.event.addListener(
+                        marker_100_39_044886__84_553136,
+                        'click',
+                        getInfoCallback(map, "count: <br>15:3")
+                    );
+                
+                
             }
 
             function getInfoCallback(map, content) {
