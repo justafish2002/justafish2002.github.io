@@ -20,7 +20,7 @@
         <script type="text/javascript">
             function initialize_map() {
                 var map = new google.maps.Map(document.getElementById('fullmap'), {
-                    center: new google.maps.LatLng(39.07, -84.55),
+                    center: new google.maps.LatLng(39.05, -84.55),
                     zoom: 14,
                     mapTypeId: google.maps.MapTypeId.ROADMAP,
                     zoomControl: true,
@@ -36,6 +36,21 @@
                 
                 
                     
+                    var marker_137_39_092285__84_497842 = new google.maps.Marker({	position: new google.maps.LatLng(39.092285,-84.497842),	
+map: map,	icon: "static/icons/137.png"
+});
+
+                    marker_137_39_092285__84_497842
+
+                    google.maps.event.addListener(
+                        marker_137_39_092285__84_497842,
+                        'click',
+                        getInfoCallback(map, "count: <br>27. 20:12")
+                    );
+                
+                
+                
+                    
                     var marker_137_39_094804__84_496203 = new google.maps.Marker({	position: new google.maps.LatLng(39.094804,-84.496203),	
 map: map,	icon: "static/icons/137.png"
 });
@@ -45,7 +60,7 @@ map: map,	icon: "static/icons/137.png"
                     google.maps.event.addListener(
                         marker_137_39_094804__84_496203,
                         'click',
-                        getInfoCallback(map, "count: <br>19:18<br>19:48")
+                        getInfoCallback(map, "count: <br>21. 19:18<br>21. 19:48")
                     );
                 
                 
