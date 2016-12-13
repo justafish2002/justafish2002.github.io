@@ -31,6 +31,34 @@
                                     <itunes:explicit>No</itunes:explicit>
                                     <itunes:duration>44:00</itunes:duration>
                                 </item>
-                                               
+  <item>
+                                    <title>2016-12-13 - KSR - Hour 1</title>                                   
+                                    <pubDate>Tue, 13 Dec 2016 11:10:30 -0500</pubDate>
+                                    <description>KSR is LIVE from Lubbock, Texas where they talk Calipari, a huge football commitment, and more</description>
+                                    <itunes:subtitle>KSR is LIVE from Lubbock, Texa...</itunes:subtitle>
+                                    <itunes:summary>KSR is LIVE from Lubbock, Texas where they talk Calipari, a huge football commitment, and more</itunes:summary>
+                                    <enclosure url="http://media.ccomrcdn.com/media/station_content/1193/2016/12/mp3/default/2016-12-13_-_ksr_-_hour_1_0_1481645573.mp3?CPROG=PCAST&amp;MARKET=LOUISVILLE-KY&amp;NG_FORMAT=&amp;SITE_ID=1193&amp;STATION_ID=WKJK-AM&amp;PCAST_AUTHOR=Matt_Jones&amp;PCAST_CAT=&amp;PCAST_TITLE=KSR_-_Kentucky_Sports_Radio" length="13000000" type="audio/mp3" />
+                                    <guid>http://media.ccomrcdn.com/media/station_content/1193/2016/12/mp3/default/2016-12-13_-_ksr_-_hour_1_0_1481645573.mp3</guid>
+                                    <itunes:explicit>No</itunes:explicit>
+                                    <itunes:duration>44:00</itunes:duration>
+                                </item>
+  <item>
+                                    <title>2016-12-12 - KSR - Hour 1</title>
+                                    <pubDate>Tue, 13 Dec 2016 11:00:17 -0500</pubDate>
+                                    <description>Matt and the Gang are LIVE from Pie Five Pizza in Oklahoma where they talk their night in the haunted hotel, seeing Enes at the Thunder game, UK/Hofstra, and more</description>
+                                    <itunes:subtitle>Matt and the Gang are LIVE fro...</itunes:subtitle>
+                                    <itunes:summary>Matt and the Gang are LIVE from Pie Five Pizza in Oklahoma where they talk their night in the haunted hotel, seeing Enes at the Thunder game, UK/Hofstra, and more</itunes:summary>
+                                    <guid>http://media.ccomrcdn.com/media/station_content/1193/2016/12/mp3/default/2016-12-12_-_ksr_-_hour_1_0_1481644652.mp3</guid>
+                                    <enclosure url="http://media.ccomrcdn.com/media/station_content/1193/2016/12/mp3/default/2016-12-12_-_ksr_-_hour_1_0_1481644652.mp3?CPROG=PCAST&amp;MARKET=LOUISVILLE-KY&amp;NG_FORMAT=&amp;SITE_ID=1193&amp;STATION_ID=WKJK-AM&amp;PCAST_AUTHOR=Matt_Jones&amp;PCAST_CAT=&amp;PCAST_TITLE=KSR_-_Kentucky_Sports_Radio</enclosure_url" length="15288529" type="audio/mpeg"/>
+  </item>
+                                                  <item>
+                                    <title>2016-12-12 - KSR - Hour 2</title>
+                                    <pubDate>Tue, 13 Dec 2016 10:58:14 -0500</pubDate>
+                                    <description>Matt and the Gang continue from Pie Five Pizza in Oklahoma where they talk Calipari starting a podcast, UK football bowl practices, stories from their road trip to Vegas, and more</description>
+                                    <itunes:subtitle>Matt and the Gang continue fro...</itunes:subtitle>
+                                    <itunes:summary>Matt and the Gang continue from Pie Five Pizza in Oklahoma where they talk Calipari starting a podcast, UK football bowl practices, stories from their road trip to Vegas, and more</itunes:summary>
+                                    <guid>http://media.ccomrcdn.com/media/station_content/1193/2016/12/mp3/default/2016-12-12_-_ksr_-_hour_2_0_1481644743.mp3</guid>
+                                    <enclosure url="http://media.ccomrcdn.com/media/station_content/1193/2016/12/mp3/default/2016-12-12_-_ksr_-_hour_2_0_1481644743.mp3?CPROG=PCAST&amp;MARKET=LOUISVILLE-KY&amp;NG_FORMAT=&amp;SITE_ID=1193&amp;STATION_ID=WKJK-AM&amp;PCAST_AUTHOR=Matt_Jones&amp;PCAST_CAT=&amp;PCAST_TITLE=KSR_-_Kentucky_Sports_Radio" length="15575824" type="audio/mpeg"/>
+                                </item>
                         </channel>
 </rss>
